@@ -6,3 +6,6 @@ python3 -m venv venv
 
 # activates the virtualenv
 source venv/bin/activate
+
+# deactivates the virtualenv
+deactivate
