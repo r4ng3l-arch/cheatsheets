@@ -5,5 +5,7 @@
 | `pacman -Qm` | Lists packages not installed from the main repos(ie AUR or pkgbuild). | 
 | `yay` | Upgrades everything. |
 | `makepkg -si` | Compile and install an AUR package. |
+| `gcc program-source-code.c -o executable-file-name` | Compile a C program. |
+| `g++ program-source-code.cpp -o executable-file-name` | Compile a C++ program. |
 
  
