@@ -2,7 +2,7 @@
 | **Command** | **Description** |
 | --------------|-------------------|
 | `adb tcpip 5555` | Forward the ADB server to your device. |
-| `pacman -Qm` | Connect Over Wi-Fi. |
+| `adb connect DEVICE_IP:5555` | Connect Over Wi-Fi. |
 | `adb devices` | Verify connection. |
 | `adb install your_app.apk` | Install app. |
 | `adb disconnect` | Your device will no longer be connected over Wi-Fi. |
