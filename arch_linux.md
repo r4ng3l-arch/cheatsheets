@@ -1,7 +1,7 @@
 ### Arch Linux Useful Commands
 
 | **Command** | **Description** |
-|----------------------|-------------------|
+|-----------------|-------------------|
 | `sudo pacman -Sy archlinux-keyring && sudo pacman -Su` | Upgrade system regularly. |
 | `pacman -Qm` | Lists packages not installed from the main repos (i.e., AUR or pkgbuild). |
 | `paru` | Upgrades everything (official and AUR packages). |
