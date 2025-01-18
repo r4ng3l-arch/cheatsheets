@@ -15,7 +15,7 @@
 | `sudo pacman -Rns <package-name>` | Remove a package and its unused dependencies. |
 | `sudo pacman -Qtdq` | List orphaned packages. |
 | `sudo pacman -Scc` | Remove all cached package files. |
-| `sudo pacman -Ss <package-name>t` | Search packages. |
+| `sudo pacman -Ss` | Search packages. |
 | `sudo pacman -U <package-file>.tar.zst` | Install a local package file. |
 | `sudo pacman -F <file>` | Search for a package that provides a specific file. |
 | `sudo pacman -D --asdeps <package-name>` | Mark a package as a dependency. |
