@@ -7,7 +7,7 @@
 | `paru` | Upgrades everything (official and AUR packages). |
 | `paru -Syu --aur` | Upgrades only the AUR packages. |
 | `paru -Rns <package-name>` | Remove a specific AUR package along with unused dependencies. |
-| `paru -Qtdq | sudo pacman -Rns -` | Clean up orphaned packages. |
+| `pacman -Qdt` | Orphaned dependencies. |
 | `makepkg -si` | Compile and install an AUR package. |
 | `gcc program-source-code.c -o executable-file-name` | Compile a C program. |
 | `g++ program-source-code.cpp -o executable-file-name` | Compile a C++ program. |
